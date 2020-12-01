@@ -120,6 +120,6 @@ app.post('/searc',async (req,res)=>{
     // res.send(use)
   })
 
-const port = process.env.PORT;
+// const port = process.env.PORT;
 
-app.listen(port, console.log(`Server started on port ${port}`));
+app.listen(process.env.PORT, console.log(`Server started on port ${process.env.PORT}`));
