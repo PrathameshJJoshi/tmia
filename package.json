@@ -2,13 +2,12 @@
   "name": "Tmia",
   "version": "0.0.1",
   "description": "This example is so cool.",
-  "private":"true",
+  "private": "true",
   "main": "app.js",
   "scripts": {
-    "start": "procfile",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "keywords": [
     "example",
     "heroku"
@@ -16,7 +15,8 @@
   "author": "jane-doe",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "bcryptjs": "^2.4.3"
   },
   "engines": {
     "node": "12.19.0"
