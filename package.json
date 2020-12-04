@@ -16,7 +16,10 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "bcryptjs": "^2.4.3"
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
   },
   "engines": {
     "node": "12.19.0"
