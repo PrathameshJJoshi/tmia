@@ -2,7 +2,7 @@
   "name": "Tmia",
   "version": "0.0.1",
   "description": "This example is so cool.",
-  "main": "web.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
