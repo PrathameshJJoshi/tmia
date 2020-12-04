@@ -1,8 +1,8 @@
 {
   "name": "Tmia",
-  "version": "0.0.1",
+  "version": "12.19.0",
   "description": "This example is so cool.",
-  "main": "web.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
