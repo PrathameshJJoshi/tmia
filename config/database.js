@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize');
 
 
-module.exports =  new Sequelize('enercomp_db_tmia','enercomp_admin','Enerdb@2587', {
-  host: 'www.enerty.in',
+module.exports =  new Sequelize('tmia','root','', {
+  host: 'localhost',
   // port:3306,
   dialect: 'mysql',
   // operatorsAliases: false,
